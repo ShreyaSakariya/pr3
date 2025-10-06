@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+    
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            align-items: center;
+            padding-bottom: 50px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            
+            }
+        label {
+           
+            margin-bottom: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1638cf;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        a {
+            display: block;
+            color: #1638cf;
+            text-decoration: none;
+        }
+        
+        </style>
+</head>
+<body>
+    <br>
+    <div class="container">
+        <h2 style="text-align: center;">Login</h2>
+        <p style ="text-align: center;">Please enter your credentials to login.</p>
+    <form action="register.html" method="post">
+        <label for="fname"><b>First Name<span style="color: red">*</span></b></label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your First Name" required>
+        <label for="lname"><b>Last Name<span style="color: red">*</span></b></label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your Last Name" required>
+        <label for="email" ><b>Email<span style="color: red">*</span></b></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="password" ><b>Password<span style="color: red">*</span></b></label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <label for="number"><b>Mobile Number<span style="color: red">*</span></b></label>
+        <input for ="number" id="mobnum" name="number" placeholder="Enter your mobile number" required>
+        
+        <button type="submit">Login</button>
+
+    
+    </form>
+</div>    
+
+    </div>    
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
